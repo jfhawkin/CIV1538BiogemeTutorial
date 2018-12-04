@@ -6,3 +6,4 @@ img/
 venv/
 *.zip
 *.tex
+*.dat
