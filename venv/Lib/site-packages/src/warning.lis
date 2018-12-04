@@ -1,0 +1,141 @@
+Using Cython
+Please put "# distutils: language=c++" in your .pyx or .pxd file(s)
+Warning: Extension name 'biogeme.cbiogeme' does not match fully qualified name 'src.cbiogeme' of 'src/cbiogeme.pyx'
+running install
+running build
+running build_py
+running build_ext
+building 'biogeme.cbiogeme' extension
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/cbiogeme.cpp -o build/temp.linux-x86_64-3.6/src/cbiogeme.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/biogeme.cc -o build/temp.linux-x86_64-3.6/src/biogeme.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioNormalCdf.cc -o build/temp.linux-x86_64-3.6/src/bioNormalCdf.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/panelbiogeme.cc -o build/temp.linux-x86_64-3.6/src/panelbiogeme.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioThreadMemory.cc -o build/temp.linux-x86_64-3.6/src/bioThreadMemory.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioString.cc -o build/temp.linux-x86_64-3.6/src/bioString.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioFormula.cc -o build/temp.linux-x86_64-3.6/src/bioFormula.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprNormalCdf.cc -o build/temp.linux-x86_64-3.6/src/bioExprNormalCdf.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+In file included from /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include/numpy/ndarraytypes.h:1809:0,
+                 from /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from src/cbiogeme.cpp:643:
+/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprIntegrate.cc -o build/temp.linux-x86_64-3.6/src/bioExprIntegrate.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprGaussHermite.cc -o build/temp.linux-x86_64-3.6/src/bioExprGaussHermite.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprRandomVariable.cc -o build/temp.linux-x86_64-3.6/src/bioExprRandomVariable.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprMontecarlo.cc -o build/temp.linux-x86_64-3.6/src/bioExprMontecarlo.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprPanelTrajectory.cc -o build/temp.linux-x86_64-3.6/src/bioExprPanelTrajectory.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprDraws.cc -o build/temp.linux-x86_64-3.6/src/bioExprDraws.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+src/biogeme.cc: In function ‘void* computeFunctionForThread(void*)’:
+src/biogeme.cc:282:28: warning: ‘w’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   (input->bhhh)[i][j] += w * fgh->g[i] * fgh->g[j] ;
+                            ^
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprDerive.cc -o build/temp.linux-x86_64-3.6/src/bioExprDerive.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprAnd.cc -o build/temp.linux-x86_64-3.6/src/bioExprAnd.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+src/panelbiogeme.cc: In function ‘void* computePanelFunctionForThread(void*)’:
+src/panelbiogeme.cc:285:33: warning: ‘w’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        (input->bhhh)[i][j] += w * fgh->g[i] * fgh->g[j] ;
+                                 ^
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprOr.cc -o build/temp.linux-x86_64-3.6/src/bioExprOr.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprEqual.cc -o build/temp.linux-x86_64-3.6/src/bioExprEqual.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprNotEqual.cc -o build/temp.linux-x86_64-3.6/src/bioExprNotEqual.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprLessOrEqual.cc -o build/temp.linux-x86_64-3.6/src/bioExprLessOrEqual.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprLess.cc -o build/temp.linux-x86_64-3.6/src/bioExprLess.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprGreaterOrEqual.cc -o build/temp.linux-x86_64-3.6/src/bioExprGreaterOrEqual.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprGreater.cc -o build/temp.linux-x86_64-3.6/src/bioExprGreater.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprElem.cc -o build/temp.linux-x86_64-3.6/src/bioExprElem.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprMultSum.cc -o build/temp.linux-x86_64-3.6/src/bioExprMultSum.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprLiteral.cc -o build/temp.linux-x86_64-3.6/src/bioExprLiteral.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprPlus.cc -o build/temp.linux-x86_64-3.6/src/bioExprPlus.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprMinus.cc -o build/temp.linux-x86_64-3.6/src/bioExprMinus.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprTimes.cc -o build/temp.linux-x86_64-3.6/src/bioExprTimes.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprDivide.cc -o build/temp.linux-x86_64-3.6/src/bioExprDivide.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprPower.cc -o build/temp.linux-x86_64-3.6/src/bioExprPower.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprUnaryMinus.cc -o build/temp.linux-x86_64-3.6/src/bioExprUnaryMinus.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprExp.cc -o build/temp.linux-x86_64-3.6/src/bioExprExp.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprLog.cc -o build/temp.linux-x86_64-3.6/src/bioExprLog.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprNumeric.cc -o build/temp.linux-x86_64-3.6/src/bioExprNumeric.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExprLogLogit.cc -o build/temp.linux-x86_64-3.6/src/bioExprLogLogit.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExpression.cc -o build/temp.linux-x86_64-3.6/src/bioExpression.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioExceptions.cc -o build/temp.linux-x86_64-3.6/src/bioExceptions.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioDerivatives.cc -o build/temp.linux-x86_64-3.6/src/bioDerivatives.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioGaussHermite.cc -o build/temp.linux-x86_64-3.6/src/bioGaussHermite.o -std=c++11
+g++ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/numpy/core/include -I/home/gayouf/Applications/anaconda3/include/python3.6m -c src/bioGhFunction.cc -o build/temp.linux-x86_64-3.6/src/bioGhFunction.o -std=c++11
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+g++ -pthread -shared -B /home/gayouf/Applications/anaconda3/compiler_compat -L/home/gayouf/Applications/anaconda3/lib -Wl,-rpath=/home/gayouf/Applications/anaconda3/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-3.6/src/cbiogeme.o build/temp.linux-x86_64-3.6/src/biogeme.o build/temp.linux-x86_64-3.6/src/bioNormalCdf.o build/temp.linux-x86_64-3.6/src/panelbiogeme.o build/temp.linux-x86_64-3.6/src/bioFormula.o build/temp.linux-x86_64-3.6/src/bioThreadMemory.o build/temp.linux-x86_64-3.6/src/bioString.o build/temp.linux-x86_64-3.6/src/bioExprNormalCdf.o build/temp.linux-x86_64-3.6/src/bioExprIntegrate.o build/temp.linux-x86_64-3.6/src/bioExprGaussHermite.o build/temp.linux-x86_64-3.6/src/bioExprRandomVariable.o build/temp.linux-x86_64-3.6/src/bioExprMontecarlo.o build/temp.linux-x86_64-3.6/src/bioExprPanelTrajectory.o build/temp.linux-x86_64-3.6/src/bioExprDraws.o build/temp.linux-x86_64-3.6/src/bioExprDerive.o build/temp.linux-x86_64-3.6/src/bioExprAnd.o build/temp.linux-x86_64-3.6/src/bioExprOr.o build/temp.linux-x86_64-3.6/src/bioExprEqual.o build/temp.linux-x86_64-3.6/src/bioExprNotEqual.o build/temp.linux-x86_64-3.6/src/bioExprLessOrEqual.o build/temp.linux-x86_64-3.6/src/bioExprLess.o build/temp.linux-x86_64-3.6/src/bioExprGreaterOrEqual.o build/temp.linux-x86_64-3.6/src/bioExprGreater.o build/temp.linux-x86_64-3.6/src/bioExprElem.o build/temp.linux-x86_64-3.6/src/bioExprMultSum.o build/temp.linux-x86_64-3.6/src/bioExprLiteral.o build/temp.linux-x86_64-3.6/src/bioExprPlus.o build/temp.linux-x86_64-3.6/src/bioExprMinus.o build/temp.linux-x86_64-3.6/src/bioExprTimes.o build/temp.linux-x86_64-3.6/src/bioExprDivide.o build/temp.linux-x86_64-3.6/src/bioExprPower.o build/temp.linux-x86_64-3.6/src/bioExprUnaryMinus.o build/temp.linux-x86_64-3.6/src/bioExprExp.o build/temp.linux-x86_64-3.6/src/bioExprLog.o build/temp.linux-x86_64-3.6/src/bioExprNumeric.o build/temp.linux-x86_64-3.6/src/bioExprLogLogit.o build/temp.linux-x86_64-3.6/src/bioExpression.o build/temp.linux-x86_64-3.6/src/bioExceptions.o build/temp.linux-x86_64-3.6/src/bioDerivatives.o build/temp.linux-x86_64-3.6/src/bioGaussHermite.o build/temp.linux-x86_64-3.6/src/bioGhFunction.o -o build/lib.linux-x86_64-3.6/biogeme/cbiogeme.cpython-36m-x86_64-linux-gnu.so
+running install_lib
+copying build/lib.linux-x86_64-3.6/biogeme/models.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/biogeme_keep.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/__init__.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/biogeme.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/exceptions.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/database.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/distributions.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/tools.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/_expressions.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/draws.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/results.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/cbiogeme.cpython-36m-x86_64-linux-gnu.so -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/overload.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/expressions.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/version.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+copying build/lib.linux-x86_64-3.6/biogeme/filenames.py -> /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/models.py to models.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/biogeme_keep.py to biogeme_keep.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/biogeme.py to biogeme.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/exceptions.py to exceptions.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/database.py to database.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/distributions.py to distributions.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/tools.py to tools.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/_expressions.py to _expressions.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/draws.py to draws.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/results.py to results.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/overload.py to overload.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/expressions.py to expressions.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/version.py to version.cpython-36.pyc
+byte-compiling /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme/filenames.py to filenames.cpython-36.pyc
+running install_egg_info
+Removing /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme-3.0a1-py3.6.egg-info
+Writing /home/gayouf/Applications/anaconda3/lib/python3.6/site-packages/biogeme-3.0a1-py3.6.egg-info

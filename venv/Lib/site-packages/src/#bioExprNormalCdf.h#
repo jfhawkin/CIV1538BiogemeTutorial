@@ -1,0 +1,32 @@
+//-*-c++-*------------------------------------------------------------
+//
+// File name : bioExprNormalCdf.h
+// Author :    Michel Bierlaire
+// Date :      Tue Jun  8 17:59:01 2010
+// Modified for biogemepython 3.0: Wed May 30 16:15:35 2018
+//
+//--------------------------------------------------------------------
+
+#ifndef bioExprNormalCdf_h
+#define bioExprNormalCdf_h
+
+
+
+class bioExpression ;
+
+
+class bioExprNormalCdf: public bioGhFunction {
+ public:
+  bioExprNormalCdf(bioExpression* e, std::vector<bioUInt> derivl, bioUInt l, bioBoolean wg, bioBoolean wh) ;
+  std::vector<bioReal> getValue(bioReal x) ;
+  bioUInt getSize() const ;
+private:
+  bioBoolean withGradient ;
+  bioBoolean withHessian ;
+  bioExpression* theExpression ;
+  std::vector<bioUInt> derivLiteralIds ;
+  bioUInt rvId;
+  bioReal theValue ;
+};
+
+#endif
